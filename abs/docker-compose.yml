@@ -1,0 +1,4 @@
+version: "3"
+services:
+  db:
+    image: 'postgress-alphin-15.3'

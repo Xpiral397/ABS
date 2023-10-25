@@ -30,9 +30,23 @@ body {
 
 /* styles.module.css */
 
+.start::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(/abs/public/medias/svgs//wave.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-blend-mode: color;
+}
 
 .no_wrap {
   white-space: nowrap;
+}
+
+.curved {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
 .moldy-text {

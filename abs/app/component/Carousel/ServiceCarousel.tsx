@@ -26,7 +26,7 @@ export interface CaroselSwapProps {
 export type DrawnAnimationTransistionTyped = 'animate_[propel]' | 'animate-[propel-smoth-right_3s]' | 'animate-[propel-smoth-left_3s]'
 
 export function CarouselService({currentDisplay}: {currentDisplay: CarouselServiceProps | undefined}) {
-    // console.log(currentDisplay?.transistionAnimation, 'animaie')
+    console.log(currentDisplay?.transistionAnimation, 'animaie')
     return <div className='relative'>
         <div id={currentDisplay?.id} className={`${currentDisplay?.transistionAnimation + ' '} px-[10%] sm:flex sm:flex-cols justify-around items-center`}>
             <div className=' bg-white xl:ms-40'>

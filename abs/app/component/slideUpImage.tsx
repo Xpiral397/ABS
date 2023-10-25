@@ -39,8 +39,8 @@ export function SlideUp() {
     }); // Add an empty dependency array to ensure the effect runs only once
 
     return (
-        <div className="sm:mt-0 mt-10 overflow-hidden lg:h-[130vh] h-[calc(30vh)] sm:mt-10 sm:h-[calc(40vh)] xl-mt-0 top-[100px]" ref={slideRef}>
-            <div className="w-full gap-y-1 lg:gap-x-6 gap-x-1 grid grid-cols-2 xl:grid-cols-3 items-center">
+        <div className="sm:mt-0 mt-10 overflow-hidden  sm:mt-10  xl-mt-0 " ref={slideRef}>
+            <div className="w-full gap-y-1 lg:gap-x-6 gap-x-1 grid grid-cols-2 xl:grid-cols-6 items-center">
                 {Images.map((e, index) => {
                     return <ImageTemplate key={index} url={e.src} />;
                 })}
